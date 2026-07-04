@@ -1,7 +1,7 @@
-#Project Description
+##Project Description
 - A CLI-based application that let the user see the top repositories within the given timeframe, with a choice of limiting the response!
 
-#Commands & Guide
+##Commands & Guide
 
 1. trending-repos - This is the base command. It sends the call to the API and defaults to showing the top 10 trending repositories for this week.
     command format: java -jar target/github-trending-jerme-1.jar trending-repos
@@ -27,5 +27,5 @@
     reminders: by default (without -limit), the program will only fetch 10 trending repositories.
                It can also be run without --duration.
 
-   #Project Link
+   ##Project Link
    - https://roadmap.sh/projects/github-trending-cli
